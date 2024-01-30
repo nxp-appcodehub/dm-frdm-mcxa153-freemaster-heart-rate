@@ -1,0 +1,49 @@
+<!--
+/*
+ * Copyright 2023 NXP
+ * All rights reserved.
+ *
+ * SPDX-License-Identifier: BSD-3-Clause
+ */
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>    
+    <meta charset="UTF-8">
+    <title>ECG, Heart Rate and SPO2 Monitoring</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div class="header">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/NXP-Logo.svg" alt="NXP Logo" class="logo"> 
+        <h1>FRDM-MCXA153 ECG, Heart Rate and SPO2 Monitoring</h1>
+    </div>
+    <div class="value-box">
+        <div class="value-item">
+            <h2>Heart Rate (BPM):</h2>
+            <h2 id="heartRateDisplay" class="value-display">--</h2>
+        </div>
+        <div class="value-item">
+            <h2>SPO2 (%):</h2>
+            <h2 id="spo2Display" class="value-display">--</h2>
+        </div>
+    </div>
+    <div class="container">
+        <div class="data-value">Electrocardiogram (ECG)</div>
+        <div class="chart-container">
+            <canvas id="hr_plot"></canvas>
+        </div>
+        
+        <div class="data-value">SPO2 (%): <span id="spo2Value">--</span></div>
+        <div class="chart-container">
+            <canvas id="spo2_plot"></canvas>
+        </div>
+
+        <p id="status">No errors.</p>
+    </div>
+
+    <object id="pcm" height="0" width="0" classid="clsid:48A185F1-FFDB-11D3-80E3-00C04F176153"></object>
+    <script src="script.js"></script>
+</body>
+</html>

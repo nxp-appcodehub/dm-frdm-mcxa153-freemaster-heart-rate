@@ -1,0 +1,23 @@
+<data:item xmlns:data="data" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="data ../../xsd/alp.xsd" id="dm-frdm-mcxa153-freemaster-heart-rate" type="demo" format="cmsis" versionSchema="1.0.0" name="frdm mcxa153 freemaster heart rate">
+    <display_title>
+        Heart rate (BPM) and SPO2 monitoring on FRDM-MCXA153
+    </display_title>
+    <overview>
+        <![CDATA[This demo mainly demonstrates how to use FRDM-MCXA153 to collect ecg, heart rate and blood oxygen saturation data, also uses FreeMASTER as the UI for display. The MCU (MCXA153) adjusts intensity of LED's in sensor for reads better values of light intensity data from MAX30101 via the I2C bus, performs filtering, other signal processing operations and algorithms to obtain the final result (ecg ,heart rate and SPO2 with waveforms), and saves it in the on-chip RAM. The on-board debugger of FRDM-MCXA153 reads the ecg, heart rate and blood oxygen data from the MCU via the SWD, and displays the results on the FreeMASTER web page. The UI of FreeMASTER uses JS script for web-based waveform display.]]>
+    </overview>
+    <toolchains>
+        <toolchain name="mcux"></toolchain>
+    </toolchains>
+    <families>
+        <family name="mcx"></family>
+    </families>
+    <nxp_compatible_hw>
+        <hw id="FRDM-MCXA153"></hw>
+    </nxp_compatible_hw>
+    <peripherals>
+        <peripheral name="i2c"></peripheral>
+    </peripherals>
+    <categories>
+        <category name="sensor"></category>
+    </categories>
+</data:item>

@@ -1,0 +1,86 @@
+/*
+ * Copyright 2023 NXP
+ * All rights reserved.
+ *
+ * SPDX-License-Identifier: BSD-3-Clause
+ */
+ 
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background-color: #f5f5f5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #00487C; 
+    color: white;
+    padding: 5px 0;
+    text-align: center;
+}
+
+.header .logo {
+    width: 120px;
+    margin: 1px;
+}
+
+
+
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.chart-container {
+    position: relative;
+    height: 30vh;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.data-value {
+    font-weight: bold;
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+
+.value-box {
+    text-align: center;
+}
+
+
+.value-item {
+    display: flex; 
+    justify-content: center; */
+    align-items: center; 
+    margin: 10px 0;
+}
+
+
+.value-item h2 {
+    margin-right: 10px;
+    white-space: nowrap;
+    font-size: 1.2em;
+}
+
+
+.value-display {
+    font-size: 1.8em;
+}
+
+
+#heartRateDisplay {
+    color: green;
+}
+
+
+#spo2Display {
+    color: blue;
+}

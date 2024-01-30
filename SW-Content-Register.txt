@@ -1,0 +1,25 @@
+NXP Software Content Register
+
+Package:                   dm-frdm-mcxa153-freemaster-heart-rate
+
+Version:                   1.0
+Outgoing License:          BSD-3-Clause
+License File:              LICENSE.txt
+Description and comments:  This demo mainly demonstrates how to use FRDM-MCXA153 to collect heart rate and blood oxygen saturation data, and use FreeMASTER as the UI for display.
+Release Location:          https://github.com/nxp-appcodehub/dm-frdm-mcxa153-freemaster-heart-rate
+Origin:                    NXP (BSD-3-Clause)
+                           CMSIS - ARM (Apache-2.0) - https://github.com/ARM-software/CMSIS_5/
+						   
+
+CMSIS                      Name: CMSIS                                       
+                           Version: 5.8.0                                    
+                           Outgoing License: Apache License 2.0              
+                           License File: mcuxpresso/CMSIS/LICENSE.txt                  
+                           Format: source code                               
+                           Description and comments: Vendor-independent hardware          
+                           abstraction layer for microcontrollers that are   
+                           based on Arm Cortex processors, distributed by    
+                           ARM. cores 
+                           Location: https://github.com/nxp-appcodehub/dm-frdm-mcxa153-freemaster-heart-rate/tree/main/mcuxpresso/CMSIS/  
+                           Origin: ARM (Apache License 2.0)              
+
