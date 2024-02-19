@@ -19,7 +19,7 @@
 			<member name="mapfile_pre_select" type="sint32">0</member>
 			<member name="comm_params_saved" type="sint32">0</member>
 			<member name="comm_state_saved" type="sint32">0</member>
-			<member name="comm_state_enabled" type="sint32">1</member>
+			<member name="comm_state_enabled" type="sint32">0</member>
 			<member name="cthread_boosting" type="sint32">0</member>
 			<member name="cthread_prio_base" type="sint32">3</member>
 			<member name="cthread_prio_boost" type="sint32">3</member>
@@ -372,10 +372,10 @@
 			<member name="size_shift_right" type="sint32">0</member>
 		</object>
 		<object name="ObjId0024" type="CObList">
-			<member name="item0" type="CObject_ptr">ObjId0065</member>
+			<member name="item0" type="CObject_ptr">ObjId0083</member>
 		</object>
-		<object name="ObjId0065" type="CPrjDoc_MapFileInfo">
-			<member name="file_name" type="string">..\mcuxpresso\Debug\mcuxpresso.axf</member>
+		<object name="ObjId0083" type="CPrjDoc_MapFileInfo">
+			<member name="file_name" type="string">..\mcuxpresso\Debug\dm-frdm-mcxa153-freemaster-heart-rate.axf</member>
 			<member name="file_type" type="CObject_ptr">ObjId0010</member>
 		</object>
 		<object name="ObjId0026" type="CStringList"/>
@@ -450,7 +450,7 @@
 		</object>
 		<object name="ObjId0032" type="CPrjItemRS_VarInfo">
 			<member name="variable" type="CObject_ptr">ObjId0004</member>
-			<member name="visible" type="sint32">1</member>
+			<member name="visible" type="sint32">0</member>
 			<member name="y_block" type="sint32">0</member>
 			<member name="color" type="uint32">0x32CD32</member>
 		</object>
@@ -590,7 +590,7 @@
 		</object>
 		<object name="ObjId0040" type="CPrjItemRS_VarInfo">
 			<member name="variable" type="CObject_ptr">ObjId0005</member>
-			<member name="visible" type="sint32">1</member>
+			<member name="visible" type="sint32">0</member>
 			<member name="y_block" type="sint32">0</member>
 			<member name="color" type="uint32">0x2E2DED</member>
 		</object>
@@ -730,7 +730,7 @@
 		</object>
 		<object name="ObjId0068" type="CPrjItemRS_VarInfo">
 			<member name="variable" type="CObject_ptr">ObjId0066</member>
-			<member name="visible" type="sint32">1</member>
+			<member name="visible" type="sint32">0</member>
 			<member name="y_block" type="sint32">0</member>
 			<member name="color" type="uint32">0x2E2DED</member>
 		</object>

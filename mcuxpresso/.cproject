@@ -286,7 +286,7 @@
 								<option id="com.crt.advproject.link.gcc.lto.463597175" name="Enable Link-time optimization (-flto)" superClass="com.crt.advproject.link.gcc.lto"/>
 								<option id="com.crt.advproject.link.gcc.lto.optmization.level.963718389" name="Link-time optimization level" superClass="com.crt.advproject.link.gcc.lto.optmization.level"/>
 								<option id="com.crt.advproject.link.manage.1219955446" name="Manage linker script" superClass="com.crt.advproject.link.manage" value="true" valueType="boolean"/>
-								<option id="com.crt.advproject.link.script.1084768535" name="Linker script" superClass="com.crt.advproject.link.script" value="mcuxpresso_Debug.ld" valueType="string"/>
+								<option id="com.crt.advproject.link.script.1084768535" name="Linker script" superClass="com.crt.advproject.link.script" value="dm-frdm-mcxa153-freemaster-heart-rate_Debug.ld" valueType="string"/>
 								<option id="com.crt.advproject.link.scriptdir.354430484" name="Script path" superClass="com.crt.advproject.link.scriptdir" value="" valueType="string"/>
 								<option id="com.crt.advproject.link.crpenable.338901546" name="Enable automatic placement of Code Read Protection field in image" superClass="com.crt.advproject.link.crpenable"/>
 								<option id="com.crt.advproject.link.flashconfigenable.6064172" name="Enable automatic placement of Flash Configuration field in image" superClass="com.crt.advproject.link.flashconfigenable" value="true" valueType="boolean"/>
@@ -614,7 +614,7 @@
 								<option id="com.crt.advproject.link.gcc.lto.optmization.level.1464454382" name="Link-time optimization level" superClass="com.crt.advproject.link.gcc.lto.optmization.level"/>
 								<option id="com.crt.advproject.link.fpu.168922648" name="Floating point" superClass="com.crt.advproject.link.fpu"/>
 								<option id="com.crt.advproject.link.manage.1261278658" name="Manage linker script" superClass="com.crt.advproject.link.manage" value="true" valueType="boolean"/>
-								<option id="com.crt.advproject.link.script.1282096654" name="Linker script" superClass="com.crt.advproject.link.script" value="mcuxpresso_Release.ld" valueType="string"/>
+								<option id="com.crt.advproject.link.script.1282096654" name="Linker script" superClass="com.crt.advproject.link.script" value="dm-frdm-mcxa153-freemaster-heart-rate_Debug.ld" valueType="string"/>
 								<option id="com.crt.advproject.link.scriptdir.1632448910" name="Script path" superClass="com.crt.advproject.link.scriptdir" value="" valueType="string"/>
 								<option id="com.crt.advproject.link.crpenable.1403149070" name="Enable automatic placement of Code Read Protection field in image" superClass="com.crt.advproject.link.crpenable"/>
 								<option id="com.crt.advproject.link.flashconfigenable.419884262" name="Enable automatic placement of Flash Configuration field in image" superClass="com.crt.advproject.link.flashconfigenable" value="true" valueType="boolean"/>
