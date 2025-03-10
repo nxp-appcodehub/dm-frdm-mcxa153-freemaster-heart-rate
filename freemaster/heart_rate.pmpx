@@ -17,9 +17,16 @@
 			<member name="mapfile_listerr_ena" type="sint32">1</member>
 			<member name="mapfile_listerr_mode" type="sint32">0</member>
 			<member name="mapfile_pre_select" type="sint32">0</member>
-			<member name="comm_params_saved" type="sint32">0</member>
+			<member name="comm_params_saved" type="sint32">1</member>
 			<member name="comm_state_saved" type="sint32">0</member>
 			<member name="comm_state_enabled" type="sint32">0</member>
+			<member name="comm_port" type="sint32">0</member>
+			<member name="comm_port_hint" type="string">COM1</member>
+			<member name="comm_speed" type="sint32">9600</member>
+			<member name="comm_rs232_conn" type="string">RS232; port=COM1;speed=9600;</member>
+			<member name="comm_plugin_use" type="sint32">0</member>
+			<member name="comm_plugin_id" type="string"/>
+			<member name="comm_plugin_conn" type="string"/>
 			<member name="cthread_boosting" type="sint32">0</member>
 			<member name="cthread_prio_base" type="sint32">3</member>
 			<member name="cthread_prio_boost" type="sint32">3</member>
@@ -372,9 +379,9 @@
 			<member name="size_shift_right" type="sint32">0</member>
 		</object>
 		<object name="ObjId0024" type="CObList">
-			<member name="item0" type="CObject_ptr">ObjId0083</member>
+			<member name="item0" type="CObject_ptr">ObjId0084</member>
 		</object>
-		<object name="ObjId0083" type="CPrjDoc_MapFileInfo">
+		<object name="ObjId0084" type="CPrjDoc_MapFileInfo">
 			<member name="file_name" type="string">..\mcuxpresso\Debug\dm-frdm-mcxa153-freemaster-heart-rate.axf</member>
 			<member name="file_type" type="CObject_ptr">ObjId0010</member>
 		</object>
