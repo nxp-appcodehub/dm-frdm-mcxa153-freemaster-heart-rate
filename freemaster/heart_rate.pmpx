@@ -5,7 +5,7 @@
 	</main>
 	<objects>
 		<object name="ObjId0000" type="CPrjDoc">
-			<member name="version" type="string">3.2.2.2</member>
+			<member name="version" type="string">3.2.4.5</member>
 			<member name="enum_db_man" type="CEnumList">ObjId0001</member>
 			<member name="variables" type="CObListEx">ObjId0003</member>
 			<member name="stimulators" type="CObListEx">ObjId0006</member>
@@ -24,13 +24,15 @@
 			<member name="comm_port_hint" type="string">COM1</member>
 			<member name="comm_speed" type="sint32">9600</member>
 			<member name="comm_rs232_conn" type="string">RS232; port=COM1;speed=9600;</member>
-			<member name="comm_plugin_use" type="sint32">0</member>
-			<member name="comm_plugin_id" type="string"/>
+			<member name="comm_plugin_use" type="sint32">1</member>
+			<member name="comm_plugin_id" type="string">{1BB3C904-F1F4-4652-92EE-368716FE1D10}</member>
 			<member name="comm_plugin_conn" type="string"/>
 			<member name="cthread_boosting" type="sint32">0</member>
 			<member name="cthread_prio_base" type="sint32">3</member>
 			<member name="cthread_prio_boost" type="sint32">3</member>
 			<member name="tmpdir_orig" type="string"/>
+			<member name="gg_used" type="sint32">0</member>
+			<member name="gg_dll_path" type="string"/>
 			<member name="html_control_page" type="string">.\welcome.html</member>
 			<member name="html_rendering_engine" type="sint32">2</member>
 			<member name="html_auth_xobjects" type="CStringListEx">ObjId0026</member>
@@ -234,6 +236,7 @@
 			<member name="size_as_hex" type="sint32">1</member>
 			<member name="size_shift" type="sint32">0</member>
 			<member name="size_shift_right" type="sint32">0</member>
+			<member name="type_index" type="sint32">-1</member>
 		</object>
 		<object name="ObjId0013" type="CPrjDoc_RxpFileType">
 			<member name="type_name" type="string">aaa</member>
@@ -247,6 +250,7 @@
 			<member name="size_as_hex" type="sint32">1</member>
 			<member name="size_shift" type="sint32">0</member>
 			<member name="size_shift_right" type="sint32">0</member>
+			<member name="type_index" type="sint32">-1</member>
 		</object>
 		<object name="ObjId0014" type="CPrjDoc_RxpFileType">
 			<member name="type_name" type="string">HawkV1 xMap parser</member>
@@ -260,6 +264,7 @@
 			<member name="size_as_hex" type="sint32">1</member>
 			<member name="size_shift" type="sint32">0</member>
 			<member name="size_shift_right" type="sint32">0</member>
+			<member name="type_index" type="sint32">-1</member>
 		</object>
 		<object name="ObjId0015" type="CPrjDoc_RxpFileType">
 			<member name="type_name" type="string">TI map file</member>
@@ -273,6 +278,7 @@
 			<member name="size_as_hex" type="sint32">1</member>
 			<member name="size_shift" type="sint32">0</member>
 			<member name="size_shift_right" type="sint32">0</member>
+			<member name="type_index" type="sint32">-1</member>
 		</object>
 		<object name="ObjId0016" type="CPrjDoc_RxpFileType">
 			<member name="type_name" type="string">syc</member>
@@ -286,6 +292,7 @@
 			<member name="size_as_hex" type="sint32">1</member>
 			<member name="size_shift" type="sint32">0</member>
 			<member name="size_shift_right" type="sint32">0</member>
+			<member name="type_index" type="sint32">-1</member>
 		</object>
 		<object name="ObjId0017" type="CPrjDoc_RxpFileType">
 			<member name="type_name" type="string">Cosmic_HCS08</member>
@@ -299,6 +306,7 @@
 			<member name="size_as_hex" type="sint32">1</member>
 			<member name="size_shift" type="sint32">0</member>
 			<member name="size_shift_right" type="sint32">0</member>
+			<member name="type_index" type="sint32">-1</member>
 		</object>
 		<object name="ObjId0018" type="CPrjDoc_RxpFileType">
 			<member name="type_name" type="string">microchip</member>
@@ -312,6 +320,7 @@
 			<member name="size_as_hex" type="sint32">1</member>
 			<member name="size_shift" type="sint32">0</member>
 			<member name="size_shift_right" type="sint32">0</member>
+			<member name="type_index" type="sint32">-1</member>
 		</object>
 		<object name="ObjId0019" type="CPrjDoc_RxpFileType">
 			<member name="type_name" type="string">MicroChip</member>
@@ -325,6 +334,7 @@
 			<member name="size_as_hex" type="sint32">1</member>
 			<member name="size_shift" type="sint32">0</member>
 			<member name="size_shift_right" type="sint32">0</member>
+			<member name="type_index" type="sint32">-1</member>
 		</object>
 		<object name="ObjId0020" type="CPrjDoc_RxpFileType">
 			<member name="type_name" type="string">CodeWarrior ColdFire xMAP</member>
@@ -338,6 +348,7 @@
 			<member name="size_as_hex" type="sint32">1</member>
 			<member name="size_shift" type="sint32">0</member>
 			<member name="size_shift_right" type="sint32">0</member>
+			<member name="type_index" type="sint32">-1</member>
 		</object>
 		<object name="ObjId0021" type="CPrjDoc_RxpFileType">
 			<member name="type_name" type="string">TI map file</member>
@@ -351,6 +362,7 @@
 			<member name="size_as_hex" type="sint32">1</member>
 			<member name="size_shift" type="sint32">0</member>
 			<member name="size_shift_right" type="sint32">0</member>
+			<member name="type_index" type="sint32">-1</member>
 		</object>
 		<object name="ObjId0022" type="CPrjDoc_RxpFileType">
 			<member name="type_name" type="string">CodeWarrior ColdFire xMAP gyro</member>
@@ -364,6 +376,7 @@
 			<member name="size_as_hex" type="sint32">1</member>
 			<member name="size_shift" type="sint32">0</member>
 			<member name="size_shift_right" type="sint32">0</member>
+			<member name="type_index" type="sint32">-1</member>
 		</object>
 		<object name="ObjId0023" type="CPrjDoc_RxpFileType">
 			<member name="type_name" type="string">ColdFire xMAP - gyro</member>
@@ -377,11 +390,12 @@
 			<member name="size_as_hex" type="sint32">1</member>
 			<member name="size_shift" type="sint32">0</member>
 			<member name="size_shift_right" type="sint32">0</member>
+			<member name="type_index" type="sint32">-1</member>
 		</object>
 		<object name="ObjId0024" type="CObList">
-			<member name="item0" type="CObject_ptr">ObjId0084</member>
+			<member name="item0" type="CObject_ptr">ObjId0085</member>
 		</object>
-		<object name="ObjId0084" type="CPrjDoc_MapFileInfo">
+		<object name="ObjId0085" type="CPrjDoc_MapFileInfo">
 			<member name="file_name" type="string">..\mcuxpresso\Debug\dm-frdm-mcxa153-freemaster-heart-rate.axf</member>
 			<member name="file_type" type="CObject_ptr">ObjId0010</member>
 		</object>
@@ -389,6 +403,11 @@
 		<object name="ObjId0027" type="CPrjItemProject">
 			<member name="parent_item" type="CObject_ptr">NULL</member>
 			<member name="tree_expand" type="sint32">1</member>
+			<member name="data_capture_mode" type="sint32">0</member>
+			<member name="data_capture_onaction" type="sint32">0</member>
+			<member name="data_capture_file_type" type="sint32">0</member>
+			<member name="data_capture_dir" type="string">C:\Data</member>
+			<member name="data_absolute_time" type="sint32">0</member>
 			<member name="name" type="string">Heart_rate</member>
 			<member name="href" type="string"/>
 			<member name="watch_variables" type="CObListEx">ObjId0028</member>
@@ -420,6 +439,11 @@
 		<object name="ObjId0031" type="CPrjItemScope">
 			<member name="parent_item" type="CObject_ptr">ObjId0027</member>
 			<member name="tree_expand" type="sint32">1</member>
+			<member name="data_capture_mode" type="sint32">0</member>
+			<member name="data_capture_onaction" type="sint32">0</member>
+			<member name="data_capture_file_type" type="sint32">0</member>
+			<member name="data_capture_dir" type="string">C:\Data</member>
+			<member name="data_absolute_time" type="sint32">0</member>
 			<member name="name" type="string">heart_rate</member>
 			<member name="href" type="string"/>
 			<member name="graph_buffer" type="sint32">400</member>
@@ -436,6 +460,7 @@
 			<member name="graph_x_max" type="real64">1.00000000000000000000e+02</member>
 			<member name="graph_x_min_auto" type="sint32">1</member>
 			<member name="graph_x_max_auto" type="sint32">1</member>
+			<member name="graph_break_line" type="sint32">0</member>
 			<member name="graph_var_count" type="sint32">1</member>
 			<member name="var_count" type="sint32">1</member>
 			<member name="var0_info" type="CPrjItemRS_VarInfo">ObjId0032</member>
@@ -449,11 +474,6 @@
 			<member name="scope_x_autoscale" type="sint32">1</member>
 			<member name="scope_x_width" type="real64">4.00000000000000000000e+00</member>
 			<member name="scope_ignore_duplicity" type="sint32">0</member>
-			<member name="data_capture_mode" type="sint32">0</member>
-			<member name="data_capture_onaction" type="sint32">0</member>
-			<member name="data_capture_file_type" type="sint32">0</member>
-			<member name="data_capture_dir" type="string">C:\Data</member>
-			<member name="data_capture_dir" type="sint32">0</member>
 		</object>
 		<object name="ObjId0032" type="CPrjItemRS_VarInfo">
 			<member name="variable" type="CObject_ptr">ObjId0004</member>
@@ -560,6 +580,11 @@
 		<object name="ObjId0039" type="CPrjItemScope">
 			<member name="parent_item" type="CObject_ptr">ObjId0027</member>
 			<member name="tree_expand" type="sint32">1</member>
+			<member name="data_capture_mode" type="sint32">0</member>
+			<member name="data_capture_onaction" type="sint32">0</member>
+			<member name="data_capture_file_type" type="sint32">0</member>
+			<member name="data_capture_dir" type="string">C:\Data</member>
+			<member name="data_absolute_time" type="sint32">0</member>
 			<member name="name" type="string">spo2</member>
 			<member name="href" type="string"/>
 			<member name="graph_buffer" type="sint32">400</member>
@@ -576,6 +601,7 @@
 			<member name="graph_x_max" type="real64">1.00000000000000000000e+02</member>
 			<member name="graph_x_min_auto" type="sint32">1</member>
 			<member name="graph_x_max_auto" type="sint32">1</member>
+			<member name="graph_break_line" type="sint32">0</member>
 			<member name="graph_var_count" type="sint32">1</member>
 			<member name="var_count" type="sint32">1</member>
 			<member name="var0_info" type="CPrjItemRS_VarInfo">ObjId0040</member>
@@ -589,11 +615,6 @@
 			<member name="scope_x_autoscale" type="sint32">1</member>
 			<member name="scope_x_width" type="real64">4.00000000000000000000e+00</member>
 			<member name="scope_ignore_duplicity" type="sint32">0</member>
-			<member name="data_capture_mode" type="sint32">0</member>
-			<member name="data_capture_onaction" type="sint32">0</member>
-			<member name="data_capture_file_type" type="sint32">0</member>
-			<member name="data_capture_dir" type="string">C:\Data</member>
-			<member name="data_capture_dir" type="sint32">0</member>
 		</object>
 		<object name="ObjId0040" type="CPrjItemRS_VarInfo">
 			<member name="variable" type="CObject_ptr">ObjId0005</member>
@@ -700,6 +721,11 @@
 		<object name="ObjId0067" type="CPrjItemScope">
 			<member name="parent_item" type="CObject_ptr">ObjId0027</member>
 			<member name="tree_expand" type="sint32">1</member>
+			<member name="data_capture_mode" type="sint32">0</member>
+			<member name="data_capture_onaction" type="sint32">0</member>
+			<member name="data_capture_file_type" type="sint32">0</member>
+			<member name="data_capture_dir" type="string">C:\Data</member>
+			<member name="data_absolute_time" type="sint32">0</member>
 			<member name="name" type="string">ECG</member>
 			<member name="href" type="string"/>
 			<member name="graph_buffer" type="sint32">1000</member>
@@ -716,6 +742,7 @@
 			<member name="graph_x_max" type="real64">1.00000000000000000000e+02</member>
 			<member name="graph_x_min_auto" type="sint32">1</member>
 			<member name="graph_x_max_auto" type="sint32">1</member>
+			<member name="graph_break_line" type="sint32">0</member>
 			<member name="graph_var_count" type="sint32">1</member>
 			<member name="var_count" type="sint32">1</member>
 			<member name="var0_info" type="CPrjItemRS_VarInfo">ObjId0068</member>
@@ -729,11 +756,6 @@
 			<member name="scope_x_autoscale" type="sint32">1</member>
 			<member name="scope_x_width" type="real64">1.00000000000000000000e+01</member>
 			<member name="scope_ignore_duplicity" type="sint32">0</member>
-			<member name="data_capture_mode" type="sint32">0</member>
-			<member name="data_capture_onaction" type="sint32">0</member>
-			<member name="data_capture_file_type" type="sint32">0</member>
-			<member name="data_capture_dir" type="string">C:\Data</member>
-			<member name="data_capture_dir" type="sint32">0</member>
 		</object>
 		<object name="ObjId0068" type="CPrjItemRS_VarInfo">
 			<member name="variable" type="CObject_ptr">ObjId0066</member>
